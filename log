@@ -17,3 +17,19 @@ Thu Mar 26 07:17:46 PM UTC 2026:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 c7bea38
+Thu Mar 26 07:35:30 PM UTC 2026: 
+ list.c | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:98:12: error: ‘lista’ undeclared (first use in this function); did you mean ‘list’?
+   98 |         if(lista->current->next != NULL && lista->current->prev != NULL)
+      |            ^~~~~
+      |            list
+list.c:98:12: note: each undeclared identifier is reported only once for each function it appears in
+list.c:112:48: error: expected ‘;’ before ‘:’ token
+  112 |             list->current = list->current->next:
+      |                                                ^
+      |                                                ;
+a5f92cc
