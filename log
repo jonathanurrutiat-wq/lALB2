@@ -2,3 +2,13 @@ Thu Mar 26 07:01:54 PM UTC 2026:
  tests:  12|0
 total_score: 60/60
 1c71abd
+Thu Mar 26 07:17:35 PM UTC 2026: 
+ list.c | 96 +++++++++++++++++++++---------------------------------------------
+ 1 file changed, 30 insertions(+), 66 deletions(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:95:5: error: expected ‘,’ or ‘;’ before ‘list’
+   95 |     list->current->next->prev = list->current->prev;
+      |     ^~~~
+0713b7d
