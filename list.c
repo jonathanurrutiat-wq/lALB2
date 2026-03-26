@@ -90,7 +90,7 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) {
     
-    void * dato = (list->current->data)
+    void * dato = (list->current->data);
     
     list->current->next->prev = list->current->prev;
     list->current->prev->next = list->current->next;
