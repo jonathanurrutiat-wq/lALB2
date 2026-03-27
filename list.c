@@ -67,9 +67,8 @@ void * nextList(List * list) {
         return NULL;
     }
 
-    void* dato = list->current->data;
     list->current = list->current->next;
-    return dato;
+    return list->current->data;
     
 }
 
