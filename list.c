@@ -57,7 +57,7 @@ void * firstList(List * list) {
         return list->head->data;   
     }
 
-    return NULL
+    return NULL;
 }
 
 void * nextList(List * list) {
